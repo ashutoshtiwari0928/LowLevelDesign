@@ -17,5 +17,9 @@ public class Application {
         EagerInitialization g = EagerInitialization.getInstance();
         EagerInitialization h = EagerInitialization.getInstance();
         System.out.println(g.hashCode()+" "+h.hashCode());
+
+        BillPugh i = BillPugh.getInstance();
+        BillPugh j = BillPugh.getInstance();
+        System.out.println(i.hashCode()+" "+j.hashCode());
     }
 }
