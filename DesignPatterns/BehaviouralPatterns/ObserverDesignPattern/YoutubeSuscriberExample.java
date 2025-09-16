@@ -52,7 +52,7 @@ class User implements Suscriber{
     }
     @Override
     public void update(ConcreteChannel channel) {
-        System.out.println(name+" is Playing "+channel.getVideos().getLast());
+        System.out.println(STR."\{name} is Playing \{channel.getVideos().getLast()}");
     }
 }
 
