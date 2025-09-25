@@ -15,7 +15,7 @@ public class bfsOnGrid {
     public static int[] dx = {0,1,0,-1};
     public static int[] dy = {1,0,-1,0};
     public static void bfs(int[][] grid,int startx,int starty){
-        int n = grid.length
+        int n = grid.length;
         int m = grid[0].length;
         boolean[][] visited = new boolean[n][m];
         Queue<int[]> q = new LinkedList<>();
