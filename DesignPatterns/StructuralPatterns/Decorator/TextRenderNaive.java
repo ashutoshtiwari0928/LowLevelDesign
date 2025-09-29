@@ -32,5 +32,13 @@ public class TextRenderNaive {
         italic.render();
         TextView boldedItalic = new BoldItalicTextView();
         boldedItalic.render();
+        Dog d  = new Dog();
+        d.bark();
+    }
+}
+
+class Dog{
+    public void bark(){
+
     }
 }

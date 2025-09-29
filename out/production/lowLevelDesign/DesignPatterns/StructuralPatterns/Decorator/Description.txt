@@ -1,0 +1,9 @@
+
+
+Decorator design pattern:
+
+Provides flexible alternative to extend existing functionalities.
+
+1. Decorator class is a base class.
+2. Decorator class has a base class.
+
