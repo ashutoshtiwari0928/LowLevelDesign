@@ -24,7 +24,7 @@ public class bfsOnGrid {
         while(!q.isEmpty()){
             int[] curr = q.poll();
             int x = curr[0],y=curr[1],dist=curr[2];
-            System.out.println(STR."Visiting (\{x},\{y}) at distance \{dist}");
+//            System.out.println(STR."Visiting (\{x},\{y}) at distance \{dist}");
             for(int i=0;i<4;i++){
                 int nx = x+dx[i],ny=y+dy[i];
                 if(nx<0 || ny<0 || nx>=n || ny>=m || visited[nx][ny] || grid[nx][ny]!=0)

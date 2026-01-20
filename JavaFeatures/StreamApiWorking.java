@@ -21,7 +21,7 @@ public class StreamApiWorking {
         List<List<String>> result1 = listOfLists.stream().collect(Collectors.toList());
         List<List<String>> result2 = listOfLists.stream().toList();
         List<List<String>> result3 = new ArrayList<>(listOfLists);
-        System.out.println(STR."\{result1.equals(result2)} \{result3.equals(result1)}");
+//        System.out.println(STR."\{result1.equals(result2)} \{result3.equals(result1)}");
         System.out.println(result1);
         List<Integer> result4 = result1.stream()
                 .map(strings -> strings.size())

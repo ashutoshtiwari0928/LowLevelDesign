@@ -67,7 +67,7 @@ class ShippingService{
             System.out.println("First select the shipping strategy.");
         }
         double cost = shippingStrategy.calcualteCost(order);
-        System.out.println(STR."Final Shipping cost is \{cost}");
+//        System.out.println(STR."Final Shipping cost is \{cost}");
         return cost;
     }
 }

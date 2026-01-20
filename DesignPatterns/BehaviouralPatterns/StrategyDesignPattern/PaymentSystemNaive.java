@@ -27,7 +27,7 @@ class ShipmentCostCalculator{
             System.out.println("Calculating throgh third party API");
             cost = 7.5 + (order.getValue()*0.02);
         }
-        System.out.println(STR."Total shipping cost = \{cost}");
+//        System.out.println(STR."Total shipping cost = \{cost}");
         return cost;
     }
 
