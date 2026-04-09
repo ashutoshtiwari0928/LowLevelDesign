@@ -1,13 +1,14 @@
 package SOLIDPrinciples.LSP.Example1;
 
-import SOLIDPrinciples.LSP.Example1.BadCode.File;
-import SOLIDPrinciples.LSP.Example1.BadCode.ReadWriteOnly;
+//import SOLIDPrinciples.LSP.Example1.BadCode.File;
+//import SOLIDPrinciples.LSP.Example1.BadCode.ReadWriteOnly;
+//import SOLIDPrinciples.LSP.Example1.GoodCode.File;
+import SOLIDPrinciples.LSP.Example1.GoodCode.ReadWriteOnly;
 
 public class Main {
     public static void main(String[] args) {
-        File readWrite = new ReadWriteOnly();
-        readWrite.read();
-        readWrite.write();
-        readWrite.edit();
+        ReadWriteOnly file = new ReadWriteOnly();
+        file.read();
+        file.edit();
     }
 }
